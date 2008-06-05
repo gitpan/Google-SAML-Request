@@ -3,8 +3,8 @@
 #  This program is free software; you can redistribute it and/or
 #  modify it under the same terms as Perl itself.
 #
-#   Date: $Date: 2008-06-04 13:43:13 +0200 (Wed, 04 Jun 2008) $
-#   Revision: $Revision: 21 $
+#   Date: $Date: 2008-06-05 14:23:14 +0200 (Thu, 05 Jun 2008) $
+#   Revision: $Revision: 37 $
 #
 
 package Google::SAML::Request;
@@ -105,7 +105,7 @@ use XML::Simple;
 use URI::Escape;
 
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 
 =head2 new
