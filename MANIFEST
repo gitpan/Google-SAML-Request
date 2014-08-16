@@ -1,10 +1,13 @@
+Build.PL
 Changes
 LICENSE
-Makefile.PL
-MANIFEST
-README
+META.json
+Makefile
+README.md
+cpanfile
 lib/Google/SAML/Request.pm
 t/001_load.t
 t/002_output.t
 t/003_params.t
-META.yml                                 Module meta-data (added by MakeMaker)
+META.yml
+MANIFEST

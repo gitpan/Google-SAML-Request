@@ -15,7 +15,7 @@ Google::SAML::Request - Create or parse Google's SAML requests
 
 =head1 VERSION
 
-You are currently reading the documentation for version 0.04
+You are currently reading the documentation for version 0.05
 
 =head1 DESCRIPTION
 
@@ -105,7 +105,7 @@ use XML::Simple;
 use URI::Escape;
 
 
-our $VERSION = '0.04';
+our $VERSION = '0.05';
 
 
 =head2 new
@@ -422,9 +422,9 @@ sub ProviderName { return shift->{ProviderName}; }
 
 =head1 SOURCE CODE
 
-This module is a part of a github repository:
+This module has a repository on github. Pull requests are welcome.
 
-  http://github.com/mannih/cpan
+  https://github.com/mannih/Google-SAML-Request/
 
 =head1 AUTHOR
 
